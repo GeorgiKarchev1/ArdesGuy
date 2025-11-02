@@ -8,13 +8,15 @@ interface SectionHeaderProps {
   subtitle?: string;
   centered?: boolean;
   className?: string;
+  theme?: "light" | "dark";
 }
 
 export function SectionHeader({
   title,
   subtitle,
   centered = true,
-  className
+  className,
+  theme = "light"
 }: SectionHeaderProps) {
   return (
     <motion.div
@@ -28,11 +30,17 @@ export function SectionHeader({
         className
       )}
     >
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+      <h2 className={cn(
+        "text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight",
+        theme === "light" ? "text-gray-900" : "text-white"
+      )}>
         {title}
       </h2>
       {subtitle && (
-        <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        <p className={cn(
+          "text-lg md:text-xl max-w-3xl mx-auto leading-relaxed",
+          theme === "light" ? "text-gray-600" : "text-gray-300"
+        )}>
           {subtitle}
         </p>
       )}
