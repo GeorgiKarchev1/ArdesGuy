@@ -28,6 +28,7 @@ export function FinalCTASection() {
                 size="xl"
                 variant="secondary"
                 className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold shadow-2xl text-xl px-12 py-6"
+                href="https://calendly.com/danieldimitrov/30min"
               >
                 <PlayCircle className="w-6 h-6 mr-2" />
                 Запази безплатна консултация сега

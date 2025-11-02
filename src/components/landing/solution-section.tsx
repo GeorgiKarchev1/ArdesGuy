@@ -51,7 +51,11 @@ export function SolutionSection() {
             </div>
 
             <div className="mb-8">
-              <CTAButton size="xl" className="mb-4">
+              <CTAButton
+                size="xl"
+                className="mb-4"
+                href="https://calendly.com/danieldimitrov/30min"
+              >
                 Запази безплатна консултация
               </CTAButton>
               <p className="text-sm text-gray-500">Само за първите 50 записали се</p>

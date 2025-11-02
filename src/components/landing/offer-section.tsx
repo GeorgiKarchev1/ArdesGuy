@@ -54,6 +54,7 @@ export function OfferSection() {
                 variant="secondary"
                 size="xl"
                 className="bg-white text-blue-600 hover:bg-gray-100 mb-4"
+                href="https://calendly.com/danieldimitrov/30min"
               >
                 Запази своята безплатна консултация сега
               </CTAButton>
@@ -161,7 +162,10 @@ export function OfferSection() {
             </div>
 
             <div className="mt-8 text-center">
-              <CTAButton size="xl">
+              <CTAButton
+                size="xl"
+                href="https://calendly.com/danieldimitrov/30min"
+              >
                 Започни своята трансформация сега
               </CTAButton>
             </div>

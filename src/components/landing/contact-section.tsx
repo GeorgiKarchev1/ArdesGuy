@@ -58,11 +58,8 @@ export function ContactSection() {
             </div>
 
             <div className="flex flex-col items-center gap-3 p-6 bg-gray-800/50 rounded-xl border border-gray-700 hover:border-red-500 transition-colors duration-300">
-              <Instagram className="w-8 h-8 text-red-500" />
-              <h3 className="font-semibold text-lg">@</h3>
-              <p className="text-gray-400">
-                Sofia, Bulgaria
-              </p>
+              <Instagram className="w-8 h-13 text-red-500" />
+              <h3 className="font-semibold text-lg">@aimarketing_bg</h3>
             </div>
           </motion.div>
 

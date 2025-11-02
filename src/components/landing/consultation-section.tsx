@@ -54,6 +54,7 @@ export function ConsultationSection() {
             <CTAButton
               size="xl"
               className="relative z-10 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-2xl shadow-red-500/50 border border-red-500/50 text-xl px-12 py-6"
+              href="https://calendly.com/danieldimitrov/30min"
             >
               Запази безплатна консултация
             </CTAButton>
