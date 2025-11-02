@@ -35,19 +35,19 @@ export function SolutionSection() {
             transition={{ duration: 0.6 }}
             className="bg-gradient-to-br from-green-50 to-blue-50 p-8 md:p-12 rounded-2xl border-2 border-green-200 mb-16"
           >
-            <div className="flex items-center gap-3 mb-6">
-              <CheckCircle className="w-8 h-8 text-green-500" />
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mb-6">
+              <CheckCircle className="w-6 h-6 md:w-8 md:h-8 text-green-500" />
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900">
                 Запази безплатна консултация за 25 мин. сега
               </h2>
             </div>
 
             <div className="mb-6">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="text-2xl text-red-500 line-through">68 лв.</span>
-                <span className="text-3xl font-bold text-green-600">БЕЗПЛАТНО</span>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-3 mb-3">
+                <span className="text-lg md:text-2xl text-red-500 line-through">68 лв.</span>
+                <span className="text-2xl md:text-3xl font-bold text-green-600">БЕЗПЛАТНО</span>
               </div>
-              <p className="text-gray-600 text-lg">Отстъпка намалено от 68 лв. на безплатно</p>
+              <p className="text-gray-600 text-base md:text-lg text-center md:text-left">Отстъпка намалено от 68 лв. на безплатно</p>
             </div>
 
             <div className="mb-8">

@@ -11,42 +11,42 @@ export function PortfolioSection() {
       followers: "15К последователи",
       tiktokUrl: "https://vm.tiktok.com/ZNdTRU37e/",
       facebookUrl: "http://facebook.com/reel/619960887662534",
-      thumbnail: "/thumbnails/anelia.jpg"
+      thumbnail: "/thumbnails/AneliaTIKTOK.jpg"
     },
     {
       name: "Ardes.bg",
       followers: "200К+ последователи",
       tiktokUrl: "https://vm.tiktok.com/ZNdT82wJS/",
       facebookUrl: "https://www.facebook.com/share/r/17kbfdBucw/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/ardes.jpg"
+      thumbnail: "/thumbnails/ArdesTIKTOK.jpg"
     },
     {
       name: "Раена Хаджиева",
       followers: "Фотограф",
       tiktokUrl: "https://vm.tiktok.com/ZNdTR21r2/",
       facebookUrl: "https://www.facebook.com/share/r/1CyJVTCBVg/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/raena.jpg"
+      thumbnail: "/thumbnails/RaenaTIKTOK.jpg"
     },
     {
       name: "Magia",
       followers: "Моден бранд",
       tiktokUrl: "https://vm.tiktok.com/ZNdTR1k34/",
       facebookUrl: "https://www.facebook.com/share/r/1aZ5CU2Wu1/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/magia.jpg"
+      thumbnail: "/thumbnails/MagiaTIKTOK.jpg"
     },
     {
       name: "EcoCleaner.bg",
       followers: "Екологично почистване",
       tiktokUrl: "https://www.tiktok.com/@ecocleanerbg/video/7340705149565832480?_r=1&_t=ZN-913hDtf0uJi",
       facebookUrl: "#",
-      thumbnail: "/thumbnails/ecocleaner.jpg"
+      thumbnail: "/thumbnails/EcoClean.jpg"
     },
     {
       name: "Technohit",
       followers: "Технологична компания",
       tiktokUrl: "https://www.tiktok.com/@technohit.bg/video/7277612621853969697?_r=1&_t=ZN-913hMIZmeGc",
       facebookUrl: "#",
-      thumbnail: "/thumbnails/technohit.jpg"
+      thumbnail: "/thumbnails/Tehnohit.jpg"
     }
   ];
 

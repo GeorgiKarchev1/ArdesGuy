@@ -127,8 +127,9 @@ export function HeroSection() {
                   controls
                   playsInline
                   preload="metadata"
+                  poster="/thumbnails/videoAImarketing2.jpg"
                 >
-                  <source src="/AI Marketing 2.mp4" type="video/mp4" />
+                  <source src="/ai-marketing-2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

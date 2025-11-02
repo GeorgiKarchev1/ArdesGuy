@@ -30,8 +30,8 @@ export function CTAButton({
   const sizeClasses = {
     sm: "px-4 py-2 text-sm",
     default: "px-6 py-3 text-base",
-    lg: "px-8 py-4 text-lg",
-    xl: "px-10 py-5 text-xl"
+    lg: "px-6 md:px-8 py-3 md:py-4 text-base md:text-lg",
+    xl: "px-6 md:px-10 py-3 md:py-5 text-base md:text-xl"
   };
 
 

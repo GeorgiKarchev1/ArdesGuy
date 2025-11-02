@@ -22,8 +22,9 @@ export function AchievementsSection() {
               <video
                 controls
                 className="w-full h-auto"
+                poster="/thumbnails/videoAImarketing1.jpg"
               >
-                <source src="/AI Marketing-1.mp4" type="video/mp4" />
+                <source src="/ai-marketing-1.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

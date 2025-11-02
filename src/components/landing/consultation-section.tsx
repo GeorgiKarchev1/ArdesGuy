@@ -39,25 +39,32 @@ export function ConsultationSection() {
             {/* Inner Glow */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.2)_0%,_transparent_70%)]" />
 
-            <div className="flex items-center justify-center gap-3 mb-6 relative z-10">
-              <Clock className="w-10 h-10 text-red-500" />
-              <h2 className="text-3xl md:text-4xl font-bold text-white">
+            {/* Icon + Title - Centered Stack on Mobile */}
+            <div className="flex flex-col items-center justify-center gap-3 mb-6 relative z-10">
+              <Clock className="w-8 h-8 md:w-10 md:h-10 text-red-500 flex-shrink-0" />
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-tight">
                 Запази 1 час консултация сега
               </h2>
             </div>
 
-            <div className="flex justify-center items-center gap-4 mb-8 relative z-10">
-              <span className="text-3xl text-red-400 line-through font-semibold">138 лв.</span>
-              <span className="text-5xl font-bold text-white drop-shadow-[0_0_30px_rgba(220,38,38,0.8)]">БЕЗПЛАТНО</span>
+            {/* Price - Centered Stack on Mobile */}
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3 md:gap-4 mb-8 relative z-10">
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-red-400 line-through font-semibold">138 лв.</span>
+              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white drop-shadow-[0_0_30px_rgba(220,38,38,0.8)]">БЕЗПЛАТНО</span>
             </div>
 
-            <CTAButton
-              size="xl"
-              className="relative z-10 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-2xl shadow-red-500/50 border border-red-500/50 text-xl px-12 py-6"
-              href="https://calendly.com/danieldimitrov/30min"
-            >
-              Запази безплатна консултация
-            </CTAButton>
+            {/* Button - Fully Centered */}
+            <div className="flex justify-center relative z-10">
+              <CTAButton
+                size="xl"
+                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-2xl shadow-red-500/50 border border-red-500/50 w-full sm:w-auto"
+                href="https://calendly.com/danieldimitrov/30min"
+              >
+                <span className="text-sm sm:text-base md:text-lg lg:text-xl whitespace-normal text-center px-2">
+                  Запази безплатна консултация
+                </span>
+              </CTAButton>
+            </div>
           </motion.div>
         </div>
       </div>

@@ -41,13 +41,13 @@ export function OfferSection() {
             className="text-center mb-16"
           >
             <div className="bg-blue-600 text-white p-8 md:p-12 rounded-xl shadow-lg border-2 border-blue-700 mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-6">
                 Запази безплатна консултация за 25 минути
               </h2>
 
-              <div className="flex justify-center items-center gap-4 mb-8">
-                <span className="text-2xl line-through opacity-75">От 68 лв.</span>
-                <span className="text-4xl font-bold">→ 0 лв.</span>
+              <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-8">
+                <span className="text-lg md:text-2xl line-through opacity-75">От 68 лв.</span>
+                <span className="text-2xl md:text-4xl font-bold">→ 0 лв.</span>
               </div>
 
               <CTAButton
