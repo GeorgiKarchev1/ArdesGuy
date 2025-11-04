@@ -7,46 +7,52 @@ import { ExternalLink, Play } from "lucide-react";
 export function PortfolioSection() {
   const projects = [
     {
-      name: "Анелия MakeUP",
+      name: "Anelia MakeUP",
       followers: "15К последователи",
       tiktokUrl: "https://vm.tiktok.com/ZNdTRU37e/",
       facebookUrl: "http://facebook.com/reel/619960887662534",
-      thumbnail: "/thumbnails/AneliaTIKTOK.jpg"
+      thumbnail: "/thumbnails/AneliaTIKTOK.jpg",
+      objectPosition: "center 25%"
     },
     {
       name: "Ardes.bg",
       followers: "200К+ последователи",
       tiktokUrl: "https://vm.tiktok.com/ZNdT82wJS/",
       facebookUrl: "https://www.facebook.com/share/r/17kbfdBucw/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/ArdesTIKTOK.jpg"
+      thumbnail: "/thumbnails/ArdesTIKTOK.jpg",
+      objectPosition: "center 30%"
     },
     {
       name: "Раена Хаджиева",
       followers: "Фотограф",
       tiktokUrl: "https://vm.tiktok.com/ZNdTR21r2/",
       facebookUrl: "https://www.facebook.com/share/r/1CyJVTCBVg/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/RaenaTIKTOK.jpg"
+      thumbnail: "/thumbnails/RaenaTIKTOK.jpg",
+      objectPosition: "center 60%"
     },
     {
       name: "Magia",
       followers: "Моден бранд",
       tiktokUrl: "https://vm.tiktok.com/ZNdTR1k34/",
       facebookUrl: "https://www.facebook.com/share/r/1aZ5CU2Wu1/?mibextid=wwXIfr",
-      thumbnail: "/thumbnails/MagiaTIKTOK.jpg"
+      thumbnail: "/thumbnails/MagiaTIKTOK.jpg",
+      objectPosition: "center 25%"
     },
     {
       name: "EcoCleaner.bg",
       followers: "Екологично почистване",
       tiktokUrl: "https://www.tiktok.com/@ecocleanerbg/video/7340705149565832480?_r=1&_t=ZN-913hDtf0uJi",
       facebookUrl: "#",
-      thumbnail: "/thumbnails/EcoClean.jpg"
+      thumbnail: "/thumbnails/EcoClean.jpg",
+      objectPosition: "center 30%"
     },
     {
       name: "Technohit",
       followers: "Технологична компания",
       tiktokUrl: "https://www.tiktok.com/@technohit.bg/video/7277612621853969697?_r=1&_t=ZN-913hMIZmeGc",
       facebookUrl: "#",
-      thumbnail: "/thumbnails/Tehnohit.jpg"
+      thumbnail: "/thumbnails/Tehnohit.jpg",
+      objectPosition: "25% 35%"
     }
   ];
 
@@ -78,6 +84,7 @@ export function PortfolioSection() {
                       src={project.thumbnail}
                       alt={project.name}
                       className="absolute inset-0 w-full h-full object-cover"
+                      style={{ objectPosition: project.objectPosition }}
                     />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-black/50 group-hover:from-red-500/30 group-hover:to-black/40 transition-all duration-300" />

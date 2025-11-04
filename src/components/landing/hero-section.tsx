@@ -117,7 +117,7 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight drop-shadow-2xl">
-              We don&apos;t chase trends.<br/>We create them.
+              Ние не следваме трендове,<br/>ние ги създаваме.
             </h1>
 
             <div className="mb-12">
