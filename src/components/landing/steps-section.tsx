@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 import { SectionHeader } from "./section-header";
-import { MapPin, Handshake, FileText, Lightbulb, Rocket } from "lucide-react";
+import { Mail, Handshake, FileText, Lightbulb, Rocket } from "lucide-react";
 
 export function StepsSection() {
   const steps = [
     {
-      icon: <MapPin className="w-7 h-7" />,
+      icon: <Mail className="w-7 h-7" />,
       number: "1.",
-      title: "Имате интерес 📩",
+      title: "Имате интерес",
       description: "Имате интерес за съвместна работа",
       color: "from-red-600 to-red-700",
       textColor: "text-red-50",
