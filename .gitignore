@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 # large video files
-*.mp4
+# *.mp4 - commented out to allow marketing videos
 *.mov
 *.avi
-*.webm
+# *.webm - commented out if needed for web videos
