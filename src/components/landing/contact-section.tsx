@@ -49,11 +49,14 @@ export function ContactSection() {
               </a>
             </div>
 
-            <div className="flex flex-col items-center gap-3 p-6 bg-gray-800/50 rounded-xl border border-gray-700 hover:border-red-500 transition-colors duration-300">
-              <Phone className="w-8 h-8 text-red-500" />
+            <div className="flex flex-col items-center p-5 bg-gray-800/50 rounded-xl border border-gray-700 hover:border-red-500 transition-colors duration-300">
+              <Phone className="w-8 h-12 text-red-500" />
               <h3 className="font-semibold text-lg">Телефон</h3>
-              <a href="tel:+359888888888" className="text-gray-400 hover:text-red-500 transition-colors">
+              <a href="tel:+359884904668" className="text-gray-400 hover:text-red-500 transition-colors">
               +359 88 490 4668
+              </a>
+              <a href="tel:+359877416603" className="text-gray-400 hover:text-red-500 transition-colors">
+              +359 877 416 603
               </a>
             </div>
 

@@ -64,7 +64,12 @@ export function StorySection() {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <SectionHeader
           title="16 млн. гледания на 1 видео"
-          subtitle="От нула до милиони гледания - вижте какво постигнахме през годините"
+          subtitle={
+            <>
+              От нула до милиони гледания - вижте какво постигнахме за{" "}
+              <span className="font-bold text-[#0066cc]">Ardes.bg</span> през годините.
+            </>
+          }
           theme="dark"
         />
 
@@ -81,12 +86,12 @@ export function StorySection() {
               >
                 <div className="relative bg-gradient-to-br from-black/60 via-red-950/30 to-black/60 backdrop-blur-sm p-6 rounded-2xl border-2 border-red-500/40 h-full shadow-xl shadow-red-500/10 overflow-hidden">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(220,38,38,0.08)_0%,_transparent_50%)]" />
-                  <div className="flex items-center gap-2 mb-4 relative z-10">
+                  <div className="flex items-center justify-center md:justify-start gap-2 mb-4 relative z-10">
                     <TrendingUp className="w-6 h-6 text-red-500" />
                     <span className="text-2xl font-bold text-white">{item.year}</span>
                   </div>
 
-                  <div className="space-y-2 relative z-10">
+                  <div className="space-y-2 relative z-10 text-center md:text-left">
                     <div className="text-3xl font-bold text-red-500 mb-1">
                       {item.views}
                     </div>

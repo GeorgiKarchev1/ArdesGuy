@@ -9,7 +9,7 @@ export function StepsSection() {
     {
       icon: <MapPin className="w-7 h-7" />,
       number: "1.",
-      title: "Вие сте тук",
+      title: "Имате интерес 📩",
       description: "Имате интерес за съвместна работа",
       color: "from-red-600 to-red-700",
       textColor: "text-red-50",

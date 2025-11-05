@@ -12,7 +12,7 @@ export function PortfolioSection() {
       tiktokUrl: "https://vm.tiktok.com/ZNdTRU37e/",
       facebookUrl: "http://facebook.com/reel/619960887662534",
       thumbnail: "/thumbnails/AneliaTIKTOK.jpg",
-      objectPosition: "center 25%"
+      objectPosition: "center 50%"
     },
     {
       name: "Ardes.bg",
@@ -52,7 +52,7 @@ export function PortfolioSection() {
       tiktokUrl: "https://www.tiktok.com/@technohit.bg/video/7277612621853969697?_r=1&_t=ZN-913hMIZmeGc",
       facebookUrl: "#",
       thumbnail: "/thumbnails/Tehnohit.jpg",
-      objectPosition: "25% 35%"
+      objectPosition: "100% 100%"
     }
   ];
 
@@ -78,7 +78,10 @@ export function PortfolioSection() {
                 className="bg-gradient-to-br from-black/80 via-red-950/20 to-black/80 backdrop-blur-sm rounded-2xl border-2 border-red-500/40 hover:border-red-500 transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/30 overflow-hidden group"
               >
                 {/* Video Thumbnail */}
-                <div className="relative bg-gray-900 h-64 flex items-center justify-center cursor-pointer overflow-hidden">
+                <div
+                  className="relative bg-gray-900 h-64 flex items-center justify-center cursor-pointer overflow-hidden"
+                  onClick={() => window.open(project.tiktokUrl, '_blank', 'noopener,noreferrer')}
+                >
                   {project.thumbnail && (
                     <img
                       src={project.thumbnail}
@@ -90,7 +93,7 @@ export function PortfolioSection() {
                   <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-black/50 group-hover:from-red-500/30 group-hover:to-black/40 transition-all duration-300" />
                   <Play className="w-16 h-16 text-white relative z-10 group-hover:scale-110 transition-transform duration-300" />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                    <span className="text-white text-sm">Кликнете за преглед на видео</span>
+                    <span className="text-white text-sm">Кликнете върху видеото, за да работи</span>
                   </div>
                 </div>
 

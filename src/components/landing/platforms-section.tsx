@@ -73,7 +73,7 @@ export function PlatformsSection() {
     <section className="py-20 bg-gradient-to-br from-black to-gray-900 text-white">
       <div className="container mx-auto px-4 md:px-6">
         <SectionHeader
-          title="Платформите с които работим"
+          title="Платформите, с които работим"
           subtitle="Създаваме съдържание, оптимизирано за всяка платформа"
           theme="dark"
         />

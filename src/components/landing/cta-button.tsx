@@ -54,7 +54,7 @@ export function CTAButton({
         asChild={!!href}
       >
         {href ? (
-          <a href={href} className="inline-flex items-center gap-2">
+          <a href={href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2">
             {children}
           </a>
         ) : (

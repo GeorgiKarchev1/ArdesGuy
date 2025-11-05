@@ -6,8 +6,8 @@ import { PlayCircle } from "lucide-react";
 
 export function AchievementsSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-black text-white">
-     
+    <section className="pt-8 pb-10 bg-gradient-to-br from-gray-900 to-black text-white">
+
 
         <div className="max-w-6xl mx-auto">
           {/* Video Player */}
@@ -36,20 +36,7 @@ export function AchievementsSection() {
            
 
           {/* Final Call to Action */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-12 bg-gradient-to-r from-red-500 to-red-600 p-8 rounded-2xl text-center"
-          >
-            <p className="text-2xl font-bold mb-4">
-              Вече знаеш кои сме.
-            </p>
-            <p className="text-xl">
-              Сега е твоят ред да направиш първата крачка.
-            </p>
-          </motion.div>
+       
         </div>
 
     </section>

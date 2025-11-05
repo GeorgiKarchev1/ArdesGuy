@@ -57,7 +57,7 @@ export function TargetAudienceSection() {
   ];
 
   return (
-    <section className="relative py-20 bg-black overflow-hidden">
+    <section className="relative pt-4 pb-20 bg-black overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#0d0000] via-black to-[#1a0000]" />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <SectionHeader
