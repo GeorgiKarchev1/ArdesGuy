@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="relative bg-black py-20 md:py-32 overflow-hidden">
+    <section className="relative bg-black pt-20 pb-4 md:py-32 overflow-hidden">
       {/* Cinematic Background with Radial Gradients */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-[#1a0000] to-black" />
 
@@ -120,7 +120,7 @@ export function HeroSection() {
               Ние не следваме трендове,<br/>ние ги създаваме.
             </h1>
 
-            <div className="mb-12">
+            <div className="mb-4 md:mb-12">
               <div className="relative w-full max-w-4xl mx-auto rounded-2xl border-2 border-red-500/50 shadow-2xl shadow-red-500/20 overflow-hidden">
                 <video
                   className="w-full h-auto"

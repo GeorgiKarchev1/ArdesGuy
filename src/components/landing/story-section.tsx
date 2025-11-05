@@ -39,7 +39,7 @@ export function StorySection() {
   ];
 
   return (
-    <section className="relative py-20 bg-black overflow-hidden">
+    <section className="relative pt-4 pb-20 md:py-20 bg-black overflow-hidden">
       {/* Layered Dark Background with Red Accent */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a0000] via-black to-[#0d0000]" />
@@ -66,7 +66,7 @@ export function StorySection() {
           title="16 млн. гледания на 1 видео"
           subtitle={
             <>
-              От нула до милиони гледания - вижте какво постигнахме за{" "}
+              От нула до милиони гледания - вижте какво постигнахме с{" "}
               <span className="font-bold text-[#0066cc]">Ardes.bg</span> през годините.
             </>
           }
