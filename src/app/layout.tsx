@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Ardes.bg Team" }],
   creator: "Ardes.bg",
   publisher: "AiMarketing.bg",
+  icons: {
+    icon: "/aimarketing.ico",
+    shortcut: "/ai-marketing-logo_02.png",
+    apple: "/ai-marketing-logo_02.png",
+  },
   openGraph: {
     title: "AiMarketing.bg - Научи се да бъдеш известен в социалните мрежи",
     description: "Историята зад TikTok канала на Ardes.bg с над 400 млн. гледания",
@@ -26,12 +31,21 @@ export const metadata: Metadata = {
     siteName: "AiMarketing.bg",
     locale: "bg_BG",
     type: "website",
+    images: [
+      {
+        url: "/ai-marketing-logo_02.png",
+        width: 1200,
+        height: 630,
+        alt: "AiMarketing.bg",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "AiMarketing.bg - Научи се да бъдеш известен в социалните мрежи",
     description: "Историята зад TikTok канала на Ardes.bg с над 400 млн. гледания",
     creator: "@ardesbg",
+    images: ["/ai-marketing-logo_02.png"],
   },
   robots: {
     index: true,
