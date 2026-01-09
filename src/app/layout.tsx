@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   creator: "Ardes.bg",
   publisher: "AiMarketing.bg",
   icons: {
-    icon: "/aimarketing.ico",
     shortcut: "/ai-marketing-logo_02.png",
     apple: "/ai-marketing-logo_02.png",
   },
